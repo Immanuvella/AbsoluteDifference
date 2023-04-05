@@ -1,4 +1,5 @@
-﻿using System;
+﻿//program to find absolute difference
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,15 +21,15 @@ namespace AbsoluteDifference
         }
         static int AbsoluteDiff(int n)
         {
-            if(n>51)
+            if(n>51)//check the given number is  greater than 51 
             {
                 int res = (n - 51)*3;
-                return res;
+                return res;//return result
                 
             }
             else
             {
-                int res2 = n - 51;
+                int res2 =( n - 51);
                 return res2;
             }
         }
